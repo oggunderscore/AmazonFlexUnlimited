@@ -413,7 +413,7 @@ class FlexUnlimited:
   def __processOffer(self, offer: Offer):
     if offer.hidden:
       return
-      
+            
     if self.desiredWeekdays:
       if offer.weekday not in self.desiredWeekdays:
         return
@@ -444,8 +444,10 @@ class FlexUnlimited:
         currentOffers = offersResponse.json().get("offerList")
         currentOffers.sort(key=lambda pay: int(pay['rateInfo']['priceAmount']),
                            reverse=True)
+        # print(currentOffers)
         for offer in currentOffers:
           offerResponseObject = Offer(offerResponseObject=offer)
+          print(offerResponseObject.toString())
           self.__processOffer(offerResponseObject)
         self.__retryCount += 1
       elif offersResponse.status_code == 400:
