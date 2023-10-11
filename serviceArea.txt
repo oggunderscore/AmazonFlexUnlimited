@@ -43,8 +43,3 @@
 |      Irvine Spectrum (PIAB) - Retail Delivery      | 8cb9f024-d6af-420b-b1be-efd99d197b50 |
 +----------------------------------------------------+--------------------------------------+
 
-sid
-AC6a56d970c971d7f74a8c268c965c71f5
-token
-7c90611f408e4ec5409cbddab63cccb1
-from 8556478020
