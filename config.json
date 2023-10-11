@@ -1,19 +1,31 @@
 {
-  "username": "",
-  "password": "",
-  "minBlockRate": 150,
-  "minPayRatePerHour": 32,
-  "arrivalBuffer": 45,
-  "desiredWarehouses": [],
-  "desiredStartTime": "00:00",
+  "username": "underscoreogg@gmail.com",
+  "password": "JavaBukkit1!",
+  "minBlockRate": 40,
+  "minPayRatePerHour": 25,
+  "arrivalBuffer": 60,
+  "desiredWarehouses": [
+    "a843ccc3-074e-4e72-9729-f50a45a41b47",
+    "93d1db09-3fe0-4cad-a7cf-93ac01a67046",
+    "af94c3ce-e0be-47da-a91d-41882ed027be",
+    "b7d9db9f-e4d2-4bf1-be2d-bd8caa8ab519",
+    "6c7196b7-d5b9-4255-82db-7583f111aceb",
+    "25cd5dfc-b66f-49a6-b7c4-ee8619b8f3d1",
+    "4fb289c4-2ce4-4ddd-8bde-078c1dbea774"
+  ],
+  "desiredStartTime": "08:30",
   "desiredEndTime": "23:30",
-  "desiredWeekdays": ["MON", "tue", "Wed", "Thur", "Fri", "Sat", "Sunday"],
-  "retryLimit": 10,
-  "refreshInterval": 0.2,
+  "desiredWeekdays": [
+    "Fri",
+    "Sat",
+    "Sunday"
+  ],
+  "retryLimit": 1500,
+  "refreshInterval": 1.0,
   "twilioAcctSid": "",
   "twilioAuthToken": "",
   "twilioFromNumber": "",
   "twilioToNumber": "",
-  "refreshToken": "",
-  "accessToken": ""
+  "refreshToken": "Atnr|EwICIORmWl_oXvmUTAPpdmF2auBodG219Yqk-8yp8jgsjamav7yP_4NlGeFEyjtJVAKKoFfUlsDy4hWBJRDY6w3hgQoHmKIK17NkkuJbWguL4FYe_vb2dZhinpU8c581xwG9yLqr4TKpiydaC0eidLPqGqceHg5gyvcivahUohnxfaKAKSf_ajmT4lmYwYZC8q2i3XrJqNdFqCga_k6aZxiRrpw_1uKiHq1ftVqU0brBWw4rAfgvYkqt9SyY7qAY7k6rr8dUorMA6piALABRRYF2jonW",
+  "accessToken": "Atna|EwICIDSLaUvhmSHNE3xBJr0kUjhe1kpMBKr09yg3c--DuVSb-cTaGp2YSxzsodG8a98gIxJpbQn1_Ey8xlny6qL2tHaRBSliX_Dn_j2gYDQVxHR5ps1FRbQjhK4VsVq38xbLfxtGJEan7nVK3VMA7RtNMTJDxUJTa--mca_sITVlBrJa1gxysotB0Llgw-rypqmt1eZqAI4fi_OWqoq4bMeCclHTa1YnwO0SLH3ljF2XN1g8_NO_phFDp6X1zQWqF0UFpI81OkavOrzBW6kDMw3-7W8XG_FU4173hZO7f9lVk_mgMQ"
 }
